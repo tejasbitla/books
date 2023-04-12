@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+for file in "$PWD"
+do
+	fname=$(basename -s .pdf "$PWD"/*.pdf)  # Get only the file name without extension but using "basename .pdf .pdf "$PWD"/*" doesnot work.
+	echo "$fname"
+done
+#do
+#	filename=$(basename -- "$fullfile")
+#	extension="${filename##*.}"
+#	filename="${filename%.*}"
+#	echo "$filename"
+#done

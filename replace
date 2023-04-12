@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+
+for files in *.pdf
+do
+	fnew=$(echo "$files" | sed 's/ (z-lib.org).pdf/.pdf/')
+	mv "$files" "$fnew"   # Don't forget to use double quotes or else you get some error. Use shellcheck
+	#echo $files
+done

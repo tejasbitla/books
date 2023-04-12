@@ -1,0 +1,41 @@
+===================
+Jenkins
+Docker
+k8s
+Ansible
+Terraform
+Git
+AWS
+Github (Gitea)
+SonarQUbe
+Artifactroy Jfrog
+Ubuntu
+RHEL
+Windows
+Tomcat
+Nginx
+Postgresql
+Mongo
+Mysql
+Prometheus
+Grafana
+=====================
+AWS
+-----
+IAM
+EC2
+S3
+RDS(Mysql, postgresql)
+VPC
+Subnet
+ALB
+Route53
+ACM
+Autoscaling
+ECR
+ECS
+EKS
+SNS
+Cloudwatch
+SSM
+===========================
